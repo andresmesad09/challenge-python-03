@@ -19,7 +19,7 @@ def run():
                 letters.append(matches)  
     
     
-    hiden_word = ''.join(str(letter) for letter in letters)
+    hiden_word = ''.join(letters[0])
     print(f'El mensaje oculto es {hiden_word}')
 
 if __name__ == '__main__':
